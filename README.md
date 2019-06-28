@@ -85,36 +85,6 @@ react-admin-ui/
 
 参考create-react-app
 
-## 各个框架版本
-
-发出来避免遇上兼容问题的同志们抓瞎
-
-```js
-{
-  "name": "react-admin-ui",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-router": "^4.2.0",
-    "react-scripts": "1.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "antd": "^3.2.0",
-    "axios": "^0.17.1",
-    "react-router-dom": "^4.2.2"
-  }
-}
-```
-
-
 ## 注意事项
 
 1.项目默认在index.js中注释掉了registerServiceWorker.js，需要的请自行开启。不知道这个干啥用的[请自行百度](https://www.baidu.com/)
